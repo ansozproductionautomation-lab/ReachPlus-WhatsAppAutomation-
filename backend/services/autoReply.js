@@ -7,7 +7,7 @@ const HANDOFF_TOKEN = '[HANDOFF]';
 const MAX_KNOWLEDGE_CHARS = 40000;
 const HISTORY_LIMIT = 12;
 const REPLYABLE_TYPES = new Set(['text', 'button', 'interactive']);
-
+  
 // ---------------------------------------------------------------------------
 // Claude call (plain fetch, no extra npm package needed)
 // ---------------------------------------------------------------------------

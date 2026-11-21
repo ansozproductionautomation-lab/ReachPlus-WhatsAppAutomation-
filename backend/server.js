@@ -23,12 +23,12 @@ const PORT = process.env.PORT || 5000;
 // Render frontend URL. FRONTEND_ORIGIN can contain comma-separated origins.
 const FRONTEND_ORIGIN =
   process.env.FRONTEND_ORIGIN ||
-  'https://reachplus-whatsapp-1.onrender.com';
+  'https://reachplus-whatsappautomation.onrender.com';
 
 const ALLOWED_ORIGINS = [
   ...new Set([
     ...FRONTEND_ORIGIN.split(',').map((origin) => origin.trim()).filter(Boolean),
-    'https://reachplus-whatsapp-1.onrender.com',
+    'https://reachplus-whatsappautomation.onrender.com',
     'http://localhost:5173',
   ]),
 ];
